@@ -1,0 +1,18 @@
+
+
+.bg { 
+  background-image: url("../../images/AboutUsBg.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100wh;
+  height: 100vh;
+}
+
+.AboutAuTitle{ 
+  width: calc(50%);
+margin-right:3% ;
+
+}
+
+
+

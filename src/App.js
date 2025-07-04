@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import AboutUs from './Page/AboutUs/AboutUs';
+import Header from './Page/Header/Header';
+import Home from './Page/Home/Home';
+import Last from './Page/Last/Last';
+import Order from './Page/Order/Order';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{overflow: "hidden",}}>
+      <div className='flex justify-center items-center'>
+
+      <Header/> 
+      </div>
+
+      <Home/>
+      
+      
+      <Order/>
+
+      <AboutUs/>
+      <Last/>
+
     </div>
   );
 }

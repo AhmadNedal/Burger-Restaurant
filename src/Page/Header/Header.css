@@ -1,0 +1,68 @@
+
+
+li {
+  color: white;
+  position: relative;
+  align-items: center;
+  display: flex;
+  transition: .4s;
+}
+
+li span { 
+  position: absolute;
+  width: 0px;
+  height: 2px;
+  bottom: 0px;
+  transition:.4s;
+  z-index: 1;
+  background-color: white;
+}
+
+li {
+  font-weight: bold;
+  text-shadow: 0px 7px 20px black;
+}
+
+.End ,.Start{ 
+  right: 0px;
+  width: 0px;
+  height: 1.5px;
+  background-color: white;
+  border: 20px;
+}
+
+.Start { 
+  left:  0px ;
+  background-color: white;
+}
+ul li a {
+  font-size: 13px;
+}
+
+.bac h1 { 
+  font-size: 20px;
+}
+
+li:hover .End  { 
+    width: 50%;
+}
+
+li:hover .Start { 
+    width: 50%;
+    
+}
+
+
+.bac {
+  transition: 1s ;
+
+  border-radius: 200px;
+    width: calc(100% - 200px);
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+

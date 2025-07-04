@@ -1,0 +1,53 @@
+
+.Hoverr{
+  background-color: #FFE4E1;
+  transition: .5s;
+}
+.Hoverr:hover {
+  background-color: rgb(247, 212, 212);
+}
+
+.Hoverr:hover .HeadText{
+display: none;
+}
+
+.Hoverr:hover .PriceCard{
+display: none;
+}
+
+.Hoverr:hover .Description{
+  transition: .3s;
+  height: 100%;
+  padding: 11px;
+  padding-top:91px;
+  width: 200px;
+}
+
+.ImageCard {
+  transition: all .8s;
+  width :170px; 
+  height:160px;
+  padding:0x;
+  margin:0px;
+}
+
+.Hoverr:hover .ImageCard{
+    width: 100px;
+    height:102px;
+    position: absolute;
+    top:-33px;
+    border-radius: 44%; 
+}
+
+.LeftImage {
+  position: absolute;
+  animation: smoothMove 4s ease-in-out infinite;
+}
+
+@keyframes smoothMove {
+  0%   { transform: translateX(0px); }
+  50%  { transform: translateX(-20px); }
+  100% { transform: translateX(0px); }
+}
+
+

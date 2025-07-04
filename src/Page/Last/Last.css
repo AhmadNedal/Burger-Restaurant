@@ -1,0 +1,9 @@
+
+
+.bglast { 
+  background-image: url("../../images/LastBg.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100wh;
+  height: 100vh;
+}
