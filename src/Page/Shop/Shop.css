@@ -1,0 +1,21 @@
+.BgShop {
+  background-image: url("../../images/bgShop.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+}
+
+.BgShop::before { 
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(41, 38, 38, 0.333);
+  pointer-events: none;
+}
+
