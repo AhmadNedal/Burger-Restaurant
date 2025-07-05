@@ -9,6 +9,9 @@ import Shop from './Page/Shop/Shop';
 import { useEffect } from 'react';
 
 
+
+
+
 let HomeShow = () => {
   const location = useLocation();
 
